@@ -1,0 +1,21 @@
+{
+  "public_datasets": {
+    "Diabetes": {"original_n": 442, "analyzed_n": 442, "features": 10},
+    "EnergyEfficiency": {"original_n": 768, "analyzed_n": 768, "features": 8, "target": "Y1 heating load"},
+    "ConcreteStrength": {"original_n": 1030, "analyzed_n": 1030, "features": 8, "target": "compressive strength"}
+  },
+  "public_cv_seed_base": 20260920,
+  "fuzzification": {
+    "center": "y",
+    "left_spread": "0.08 * max(abs(y), 1)",
+    "right_spread": "0.12 * max(abs(y), 1)"
+  },
+  "public_outer_folds": 3,
+  "public_inner_folds": 3,
+  "contamination_examples": [1, 4, 5],
+  "contamination_types": ["response_center", "fuzzy_spread", "leverage"],
+  "contamination_rates": [0.0, 0.05, 0.10, 0.20, 0.30],
+  "contamination_seeds": [20260901, 20260902, 20260903, 20260904, 20260905, 20260906, 20260907, 20260908, 20260909, 20260910],
+  "sensitivity_examples": [3, 1, 4],
+  "sensitivity_factors": [0.25, 0.5, 1.0, 2.0, 4.0]
+}

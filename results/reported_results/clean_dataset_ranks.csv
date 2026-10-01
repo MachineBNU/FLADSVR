@@ -1,0 +1,145 @@
+metric,dataset,method,rank
+MSM,ConcreteStrength,FLADSVR,1.0
+MSM,ConcreteStrength,FLADTSVR,2.0
+MSM,ConcreteStrength,HaoChiangFSVR,5.0
+MSM,ConcreteStrength,FuzzyNW,3.0
+MSM,ConcreteStrength,ComponentRBF_SVR,4.0
+MSM,ConcreteStrength,ComponentLAD,6.0
+MSM,ConcreteStrength,ComponentRidge,7.0
+MSM,ConcreteStrength,FuzzyMean,9.0
+MSM,ConcreteStrength,FuzzyMedian,8.0
+MSM,Diabetes,FLADSVR,5.0
+MSM,Diabetes,FLADTSVR,4.0
+MSM,Diabetes,HaoChiangFSVR,3.0
+MSM,Diabetes,FuzzyNW,7.0
+MSM,Diabetes,ComponentRBF_SVR,6.0
+MSM,Diabetes,ComponentLAD,1.0
+MSM,Diabetes,ComponentRidge,2.0
+MSM,Diabetes,FuzzyMean,9.0
+MSM,Diabetes,FuzzyMedian,8.0
+MSM,EnergyEfficiency,FLADSVR,2.0
+MSM,EnergyEfficiency,FLADTSVR,1.0
+MSM,EnergyEfficiency,HaoChiangFSVR,6.0
+MSM,EnergyEfficiency,FuzzyNW,3.0
+MSM,EnergyEfficiency,ComponentRBF_SVR,7.0
+MSM,EnergyEfficiency,ComponentLAD,4.0
+MSM,EnergyEfficiency,ComponentRidge,5.0
+MSM,EnergyEfficiency,FuzzyMean,9.0
+MSM,EnergyEfficiency,FuzzyMedian,8.0
+MSM,Example 1,FLADSVR,3.0
+MSM,Example 1,FLADTSVR,4.0
+MSM,Example 1,HaoChiangFSVR,5.0
+MSM,Example 1,FuzzyNW,2.0
+MSM,Example 1,ComponentRBF_SVR,1.0
+MSM,Example 1,ComponentLAD,6.0
+MSM,Example 1,ComponentRidge,7.0
+MSM,Example 1,FuzzyMean,8.0
+MSM,Example 1,FuzzyMedian,9.0
+MSM,Example 2,FLADSVR,1.0
+MSM,Example 2,FLADTSVR,8.0
+MSM,Example 2,HaoChiangFSVR,7.0
+MSM,Example 2,FuzzyNW,3.0
+MSM,Example 2,ComponentRBF_SVR,6.0
+MSM,Example 2,ComponentLAD,2.0
+MSM,Example 2,ComponentRidge,4.0
+MSM,Example 2,FuzzyMean,9.0
+MSM,Example 2,FuzzyMedian,5.0
+MSM,Example 3,FLADSVR,7.0
+MSM,Example 3,FLADTSVR,4.0
+MSM,Example 3,HaoChiangFSVR,9.0
+MSM,Example 3,FuzzyNW,1.0
+MSM,Example 3,ComponentRBF_SVR,5.0
+MSM,Example 3,ComponentLAD,8.0
+MSM,Example 3,ComponentRidge,2.0
+MSM,Example 3,FuzzyMean,3.0
+MSM,Example 3,FuzzyMedian,6.0
+MSM,Example 4,FLADSVR,4.0
+MSM,Example 4,FLADTSVR,2.0
+MSM,Example 4,HaoChiangFSVR,9.0
+MSM,Example 4,FuzzyNW,3.0
+MSM,Example 4,ComponentRBF_SVR,1.0
+MSM,Example 4,ComponentLAD,6.0
+MSM,Example 4,ComponentRidge,5.0
+MSM,Example 4,FuzzyMean,7.0
+MSM,Example 4,FuzzyMedian,8.0
+MSM,Example 5,FLADSVR,3.0
+MSM,Example 5,FLADTSVR,4.0
+MSM,Example 5,HaoChiangFSVR,2.0
+MSM,Example 5,FuzzyNW,7.0
+MSM,Example 5,ComponentRBF_SVR,6.0
+MSM,Example 5,ComponentLAD,9.0
+MSM,Example 5,ComponentRidge,8.0
+MSM,Example 5,FuzzyMean,5.0
+MSM,Example 5,FuzzyMedian,1.0
+RMSE,ConcreteStrength,FLADSVR,2.0
+RMSE,ConcreteStrength,FLADTSVR,1.0
+RMSE,ConcreteStrength,HaoChiangFSVR,7.0
+RMSE,ConcreteStrength,FuzzyNW,4.0
+RMSE,ConcreteStrength,ComponentRBF_SVR,3.0
+RMSE,ConcreteStrength,ComponentLAD,6.0
+RMSE,ConcreteStrength,ComponentRidge,5.0
+RMSE,ConcreteStrength,FuzzyMean,8.0
+RMSE,ConcreteStrength,FuzzyMedian,9.0
+RMSE,Diabetes,FLADSVR,4.0
+RMSE,Diabetes,FLADTSVR,6.0
+RMSE,Diabetes,HaoChiangFSVR,7.0
+RMSE,Diabetes,FuzzyNW,3.0
+RMSE,Diabetes,ComponentRBF_SVR,5.0
+RMSE,Diabetes,ComponentLAD,2.0
+RMSE,Diabetes,ComponentRidge,1.0
+RMSE,Diabetes,FuzzyMean,8.0
+RMSE,Diabetes,FuzzyMedian,9.0
+RMSE,EnergyEfficiency,FLADSVR,2.0
+RMSE,EnergyEfficiency,FLADTSVR,1.0
+RMSE,EnergyEfficiency,HaoChiangFSVR,7.0
+RMSE,EnergyEfficiency,FuzzyNW,4.0
+RMSE,EnergyEfficiency,ComponentRBF_SVR,3.0
+RMSE,EnergyEfficiency,ComponentLAD,6.0
+RMSE,EnergyEfficiency,ComponentRidge,5.0
+RMSE,EnergyEfficiency,FuzzyMean,8.0
+RMSE,EnergyEfficiency,FuzzyMedian,9.0
+RMSE,Example 1,FLADSVR,3.0
+RMSE,Example 1,FLADTSVR,4.0
+RMSE,Example 1,HaoChiangFSVR,5.0
+RMSE,Example 1,FuzzyNW,1.0
+RMSE,Example 1,ComponentRBF_SVR,2.0
+RMSE,Example 1,ComponentLAD,7.0
+RMSE,Example 1,ComponentRidge,6.0
+RMSE,Example 1,FuzzyMean,8.0
+RMSE,Example 1,FuzzyMedian,9.0
+RMSE,Example 2,FLADSVR,4.0
+RMSE,Example 2,FLADTSVR,6.0
+RMSE,Example 2,HaoChiangFSVR,9.0
+RMSE,Example 2,FuzzyNW,3.0
+RMSE,Example 2,ComponentRBF_SVR,5.0
+RMSE,Example 2,ComponentLAD,2.0
+RMSE,Example 2,ComponentRidge,1.0
+RMSE,Example 2,FuzzyMean,8.0
+RMSE,Example 2,FuzzyMedian,7.0
+RMSE,Example 3,FLADSVR,4.0
+RMSE,Example 3,FLADTSVR,9.0
+RMSE,Example 3,HaoChiangFSVR,6.0
+RMSE,Example 3,FuzzyNW,2.0
+RMSE,Example 3,ComponentRBF_SVR,5.0
+RMSE,Example 3,ComponentLAD,3.0
+RMSE,Example 3,ComponentRidge,1.0
+RMSE,Example 3,FuzzyMean,8.0
+RMSE,Example 3,FuzzyMedian,7.0
+RMSE,Example 4,FLADSVR,1.0
+RMSE,Example 4,FLADTSVR,6.0
+RMSE,Example 4,HaoChiangFSVR,9.0
+RMSE,Example 4,FuzzyNW,3.0
+RMSE,Example 4,ComponentRBF_SVR,2.0
+RMSE,Example 4,ComponentLAD,5.0
+RMSE,Example 4,ComponentRidge,4.0
+RMSE,Example 4,FuzzyMean,7.0
+RMSE,Example 4,FuzzyMedian,8.0
+RMSE,Example 5,FLADSVR,3.0
+RMSE,Example 5,FLADTSVR,4.0
+RMSE,Example 5,HaoChiangFSVR,5.0
+RMSE,Example 5,FuzzyNW,8.0
+RMSE,Example 5,ComponentRBF_SVR,1.0
+RMSE,Example 5,ComponentLAD,9.0
+RMSE,Example 5,ComponentRidge,6.0
+RMSE,Example 5,FuzzyMean,2.0
+RMSE,Example 5,FuzzyMedian,7.0

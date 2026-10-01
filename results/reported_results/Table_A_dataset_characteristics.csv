@@ -1,0 +1,9 @@
+dataset,dataset_type,sample_size,feature_dimension
+ConcreteStrength,SYNTHETICALLY_FUZZIFIED,1030,8
+Diabetes,SYNTHETICALLY_FUZZIFIED,442,10
+EnergyEfficiency,SYNTHETICALLY_FUZZIFIED,768,8
+Example 1,NATIVE_FUZZY,30,1
+Example 2,NATIVE_FUZZY,30,5
+Example 3,NATIVE_FUZZY,8,1
+Example 4,NATIVE_FUZZY,184,1
+Example 5,NATIVE_FUZZY,25,18

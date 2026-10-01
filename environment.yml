@@ -1,0 +1,11 @@
+name: fuzzy-lad-regression
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy=2.2.6
+  - scipy=1.15.3
+  - pandas=2.3.3
+  - scikit-learn=1.7.2
+  - openpyxl=3.1.5
+  - osqp=1.1.3

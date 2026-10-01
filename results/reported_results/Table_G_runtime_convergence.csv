@@ -1,0 +1,35 @@
+method,fits,runtime_seconds_mean,runtime_seconds_total,scope,record_type,iteration_mean,iteration_median,iteration_max,final_primal_median,final_dual_median,parameter_change_median,runtime_failures,convergence_failures,stopping_reasons,convergence_failure_rate
+FLADSVR,5,4.902149229194037,24.510746145970185,CLEAN_NATIVE_FUZZY,clean end-to-end runtime,,,,,,,,,,
+FLADTSVR,5,40.44513362980215,202.22566814901074,CLEAN_NATIVE_FUZZY,clean end-to-end runtime,,,,,,,,,,
+FuzzyNW,5,0.07989050379255783,0.3994525189627891,CLEAN_NATIVE_FUZZY,clean end-to-end runtime,,,,,,,,,,
+ComponentRBF_SVR,5,0.2687225377885624,1.3436126889428122,CLEAN_NATIVE_FUZZY,clean end-to-end runtime,,,,,,,,,,
+ComponentLAD,5,0.02492575520882376,0.1246287760441188,CLEAN_NATIVE_FUZZY,clean end-to-end runtime,,,,,,,,,,
+ComponentRidge,5,0.11468033760320391,0.5734016880160195,CLEAN_NATIVE_FUZZY,clean end-to-end runtime,,,,,,,,,,
+FuzzyMean,5,0.0049686854006722,0.024843427003361,CLEAN_NATIVE_FUZZY,clean end-to-end runtime,,,,,,,,,,
+FuzzyMedian,5,0.0048961943946778195,0.0244809719733891,CLEAN_NATIVE_FUZZY,clean end-to-end runtime,,,,,,,,,,
+FLADSVR,3,696.3641327019626,2089.0923981058877,CLEAN_SYNTHETICALLY_FUZZIFIED,clean end-to-end runtime,,,,,,,,,,
+FLADTSVR,3,1117.9476589463495,3353.842976839049,CLEAN_SYNTHETICALLY_FUZZIFIED,clean end-to-end runtime,,,,,,,,,,
+FuzzyNW,3,0.5983535186193573,1.795060555858072,CLEAN_SYNTHETICALLY_FUZZIFIED,clean end-to-end runtime,,,,,,,,,,
+ComponentRBF_SVR,3,1.823952138714958,5.471856416144874,CLEAN_SYNTHETICALLY_FUZZIFIED,clean end-to-end runtime,,,,,,,,,,
+ComponentLAD,3,0.4425245540138955,1.3275736620416865,CLEAN_SYNTHETICALLY_FUZZIFIED,clean end-to-end runtime,,,,,,,,,,
+ComponentRidge,3,0.838429092351968,2.5152872770559043,CLEAN_SYNTHETICALLY_FUZZIFIED,clean end-to-end runtime,,,,,,,,,,
+FuzzyMean,3,0.11434117000317201,0.34302351000951603,CLEAN_SYNTHETICALLY_FUZZIFIED,clean end-to-end runtime,,,,,,,,,,
+FuzzyMedian,3,0.11167654868525763,0.3350296460557729,CLEAN_SYNTHETICALLY_FUZZIFIED,clean end-to-end runtime,,,,,,,,,,
+ComponentLAD,9,,,CLEAN_SYNTHETICALLY_FUZZIFIED,solver diagnostics,0.0,0.0,0.0,,,,0.0,0.0,not_iterative,0.0
+ComponentRBF_SVR,9,,,CLEAN_SYNTHETICALLY_FUZZIFIED,solver diagnostics,0.0,0.0,0.0,,,,0.0,0.0,not_iterative,0.0
+ComponentRidge,9,,,CLEAN_SYNTHETICALLY_FUZZIFIED,solver diagnostics,0.0,0.0,0.0,,,,0.0,0.0,not_iterative,0.0
+FLADSVR,9,,,CLEAN_SYNTHETICALLY_FUZZIFIED,solver diagnostics,1968.2222222222222,2442.0,4373.0,,,,0.0,0.0,residual_tolerance|residual_tolerance|residual_tolerance,0.0
+FLADTSVR,9,,,CLEAN_SYNTHETICALLY_FUZZIFIED,solver diagnostics,477.44444444444446,285.0,1100.0,,,,0.0,0.0,residual_tolerance|residual_tolerance|residual_tolerance|residual_tolerance|residual_tolerance|residual_tolerance,0.0
+FuzzyMean,9,,,CLEAN_SYNTHETICALLY_FUZZIFIED,solver diagnostics,0.0,0.0,0.0,,,,0.0,0.0,not_iterative,0.0
+FuzzyMedian,9,,,CLEAN_SYNTHETICALLY_FUZZIFIED,solver diagnostics,0.0,0.0,0.0,,,,0.0,0.0,not_iterative,0.0
+FuzzyNW,9,,,CLEAN_SYNTHETICALLY_FUZZIFIED,solver diagnostics,0.0,0.0,0.0,,,,0.0,0.0,not_iterative,0.0
+ComponentLAD,2250,0.0049360100711540135,11.106022660096528,ROBUSTNESS,solver diagnostics,0.0,0.0,0.0,,,,0.0,0.0,not_iterative,0.0
+ComponentRBF_SVR,2250,0.0014559849900865635,3.275966227694768,ROBUSTNESS,solver diagnostics,0.0,0.0,0.0,,,,0.0,0.0,not_iterative,0.0
+ComponentRidge,2250,6.511563419674523e-05,0.1465101769426768,ROBUSTNESS,solver diagnostics,0.0,0.0,0.0,,,,0.0,0.0,not_iterative,0.0
+FLADSVR,2250,0.06964329917692677,156.69742314808528,ROBUSTNESS,solver diagnostics,747.7595555555556,598.0,5000.0,0.00017574249227675002,4.29256282546261e-05,0.0002865501576046,0.0,12.0,max_iter|residual_tolerance|residual_tolerance | residual_tolerance|max_iter|max_iter | residual_tolerance|max_iter|residual_tolerance | residual_tolerance|residual_tolerance|max_iter | residual_tolerance|residual_tolerance|residual_tolerance,0.005333333333333333
+FLADTSVR,2250,0.6200861055476126,1395.1937374821282,ROBUSTNESS,solver diagnostics,967.8777777777777,452.5,3000.0,0.0002031010035332,0.0001229398666674,0.000294562886104,0.0,54.0,max_iter|residual_tolerance|residual_tolerance|residual_tolerance|residual_tolerance|residual_tolerance | residual_tolerance|max_iter|residual_tolerance|residual_tolerance|residual_tolerance|max_iter | residual_tolerance|max_iter|residual_tolerance|residual_tolerance|residual_tolerance|residual_tolerance | residual_tolerance|residual_tolerance|max_iter|max_iter|residual_tolerance|residual_tolerance | residual_tolerance|residual_tolerance|max_iter|residual_tolerance|max_iter|residual_tolerance | residual_tolerance|residual_tolerance|max_iter|residual_tolerance|residual_tolerance|residual_tolerance | residual_tolerance|residual_tolerance|residual_tolerance|max_iter|residual_tolerance|residual_tolerance | residual_tolerance|residual_tolerance|residual_tolerance|residual_tolerance|max_iter|residual_tolerance | residual_tolerance|residual_tolerance|residual_tolerance|residual_tolerance|residual_tolerance|max_iter | residual_tolerance|residual_tolerance|residual_tolerance|residual_tolerance|residual_tolerance|residual_tolerance,0.024
+FuzzyMean,2250,0.00021238187519416105,0.47785921918686236,ROBUSTNESS,solver diagnostics,0.0,0.0,0.0,,,,0.0,0.0,not_iterative,0.0
+FuzzyMedian,2250,7.345392513605961e-05,0.16527133155613413,ROBUSTNESS,solver diagnostics,0.0,0.0,0.0,,,,0.0,0.0,not_iterative,0.0
+FuzzyNW,2250,6.924403233763739e-05,0.15579907275968408,ROBUSTNESS,solver diagnostics,0.0,0.0,0.0,,,,0.0,0.0,not_iterative,0.0
+FLADSVR,90,0.09701980846908147,8.731782762217332,SENSITIVITY,solver diagnostics,1109.1666666666667,485.5,5000.0,0.00011907189029275,9.886739698109967e-05,0.00025625272710535,0.0,5.0,max_iter|residual_tolerance|residual_tolerance | residual_tolerance|max_iter|residual_tolerance | residual_tolerance|residual_tolerance|residual_tolerance,0.05555555555555555
+FLADTSVR,270,0.5074594281490944,137.01404560025549,SENSITIVITY,solver diagnostics,830.1962962962963,233.0,3000.0,0.00016441483593650002,7.162002816189401e-05,0.0004148682924188,0.0,4.0,max_iter|residual_tolerance|residual_tolerance|residual_tolerance|residual_tolerance|residual_tolerance | residual_tolerance|residual_tolerance|residual_tolerance|max_iter|residual_tolerance|residual_tolerance | residual_tolerance|residual_tolerance|residual_tolerance|residual_tolerance|residual_tolerance|residual_tolerance,0.014814814814814815

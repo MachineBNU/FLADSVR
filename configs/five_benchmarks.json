@@ -1,0 +1,21 @@
+{
+  "seed": 20260820,
+  "outer_protocol": {
+    "examples_1_2_4_5": "deterministic shuffled 5-fold",
+    "example_3": "leave-one-out"
+  },
+  "inner_protocol": "deterministic 3-fold shared across all candidates",
+  "selection": "minimum canonical RMSE; maximum canonical MSM tie-break",
+  "fold_local_feature_scaling": true,
+  "fold_local_positive_target_scaling": true,
+  "same_outer_predictions_for_all_metrics": true,
+  "hao_chiang_baseline": {
+    "output_assumption": "symmetric triangular fuzzy number",
+    "observed_common_spread": "mean(left_spread, right_spread)",
+    "predicted_left_and_right_spread": "predicted common spread",
+    "H": [0.25, 0.5, 0.75],
+    "K_tradeoff": [5.0, 25.0],
+    "P": [15.0],
+    "rbf_h": [0.5, 1.5]
+  }
+}
