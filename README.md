@@ -84,10 +84,8 @@ Dataset-level statistical analysis:
 python scripts/analyze_results.py
 ```
 
-The clean-data comparison includes FLADSVR, FLADTSVR, Hao--Chiang fuzzy SVR,
-FuzzyNW, component RBF-SVR, component LAD, component ridge, fuzzy mean, and
-fuzzy median. Hyperparameters are selected on the inner training folds using
-RMSE, with MSM used only to resolve exact ties.
+Clean-data experiments evaluate FLADSVR, FLADTSVR, Hao--Chiang fuzzy SVR,
+FuzzyNW, component RBF-SVR, component LAD, and component ridge.
 
 The Hao--Chiang implementation can also be evaluated on the linear example
 from its source article:
@@ -102,13 +100,10 @@ python scripts/run_hao_chiang_example.py
 - **RMSE:** `sqrt(mean(center_error^2 + left_spread_error^2 + right_spread_error^2))`
   (lower is better).
 
-Both metrics are calculated from the same held-out predictions.
-
 ## Results and project structure
 
-The numerical results reported in the article are available in
-`results/reported_results/`. Runtime varies with hardware, while metric values
-are reported at manuscript precision.
+Tables and statistical summaries are available in
+`results/reported_results/`.
 
 ```text
 src/       model, metric, data, tuning, and evaluation code

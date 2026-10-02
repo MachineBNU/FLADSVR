@@ -45,5 +45,4 @@ left_spread  = 0.08 * max(abs(y), 1)
 right_spread = 0.12 * max(abs(y), 1)
 ```
 
-The transformation is deterministic and depends only on each target value.
 These three datasets are synthetically fuzzified crisp regression tasks.

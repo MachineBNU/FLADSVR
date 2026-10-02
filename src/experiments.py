@@ -17,7 +17,7 @@ METHODS = [
     "ComponentRidge", "ComponentLAD", "ComponentRBF_SVR",
 ]
 ROBUSTNESS_METHODS = [
-    "FLADSVR", "FLADTSVR", "HaoChiangFSVR", "FuzzyMean", "FuzzyMedian", "FuzzyNW",
+    "FLADSVR", "FLADTSVR", "HaoChiangFSVR", "FuzzyNW",
     "ComponentRidge", "ComponentLAD", "ComponentRBF_SVR",
 ]
 

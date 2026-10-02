@@ -1,7 +1,7 @@
 contamination_type,endpoint,datasets,methods,friedman_statistic,p_value,posthoc_justified
-fuzzy_spread,msm_degradation_auc,3,9,13.866666666666674,0.0853075813079661,False
-fuzzy_spread,rmse_degradation_auc,3,9,15.022222222222226,0.0587148002684607,False
-leverage,msm_degradation_auc,3,9,8.672268907563033,0.3706925657333378,False
-leverage,rmse_degradation_auc,3,9,13.06442577030813,0.1096520657369364,False
-response_center,msm_degradation_auc,3,9,11.111111111111114,0.1954826293844896,False
-response_center,rmse_degradation_auc,3,9,14.044444444444451,0.0806143182505229,False
+fuzzy_spread,msm_degradation_auc,3,7,9.142857142857139,0.16570185631317016,False
+fuzzy_spread,rmse_degradation_auc,3,7,10.714285714285708,0.09761844769336614,False
+leverage,msm_degradation_auc,3,7,5.571428571428569,0.4728659764458367,False
+leverage,rmse_degradation_auc,3,7,6.857142857142847,0.3342609520790161,False
+response_center,msm_degradation_auc,3,7,10.42857142857143,0.10772583777916561,False
+response_center,rmse_degradation_auc,3,7,7.142857142857139,0.307837784802521,False
